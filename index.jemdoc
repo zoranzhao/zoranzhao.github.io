@@ -12,7 +12,7 @@ E-mail: /zhuoran/ \[@\] utexas \[DOT\] edu
 
 ~~~
 
-== Research Interest
+== Research Interests
 My research interests include 
 - Mobile/Edge Computing
 - Distributed Deep Learning Inference
@@ -23,49 +23,47 @@ My research interests include
 == Research Projects
 ~~~
 {}{img_left}{images/deepthings.png}{alt text}{232}{207}{images/deepthings.png}
-* Distributed Adaptive Deep Learning Inference Framework (DeepThings)* is a framework for locally distributed and adaptive CNN inference in resource-constrained IoT edge clusters, which mainly consists of:
+* Distributed Adaptive Deep Learning Inference Framework (DeepThings):* DeepThings is a framework for locally distributed and adaptive CNN inference in resource-constrained IoT edge clusters, which mainly consists of:
 - A Fused Tile Partitioning (FTP) method for dividing convolutional layers into independently distributable tasks. FTP fuses layers and partitions them vertically in a grid fashion, which largely reduces communication and task migration overhead.
 - A distributed work stealing runtime system for IoT clusters to adaptively distribute FTP partitions in dynamic application scenarios.
 
 *Z. Zhao*, K. Mirzazad and A. Gerstlauer, \"DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters,\" /CODES+ISSS, special issue  of  IEEE  Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2018. 
 
-\[[docs/DeepThings_2018.pdf Paper]\]\[[https://github.com/zoranzhao/DeepThings Code]\]  
+\[[docs/deepthings_2018.pdf PDF]\]\[[https://github.com/zoranzhao/DeepThings Code]\]  
 ~~~
 
 ~~~
 {}{img_left}{images/nossim.png}{alt text}{232}{154}{images/nossim.png}
-*Network-of-Systems Simulator (NoSSim)* a prototype for a source-level network/system co-simulation approach.
+*Network-of-Systems Simulator (NoSSim)*:  A  source-level  network/system  co-simulation  framework  for  rapid  embedded/mobile  system
+prototyping, which combines:
+- A Host-Compiled SystemC full system simulation platform with an abstract OS model. 
+- A LLVM-based function-level profiling and instrumentation tool.
+- Network interaction emulation based on OMNeT++ network simulation framework and lwIP library.
 
-that combines a host-compiled SystemC simulation of device-internal SoC platforms 
-a simulation of network interactions using the OMNeT++ network simulation framework
+*Z. Zhao*, V. Tsoutsouras, D. Soudris and A. Gerstlauer, \"Network\/System Co-Simulation for Design Space Exploration of IoT Applications,\" /in Proceedings of the International Conference on Embedded Computer Systems:  Architectures, Modeling and Simulation (SAMOS)/, 2017.
 
-*Z. Zhao*, K. Mirzazad and A. Gerstlauer, \"DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters,\" /CODES+ISSS, special issue  of  IEEE  Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2018. 
-
-\[[docs/DeepThings_2018.pdf Paper]\]\[[https://github.com/zoranzhao/DeepThings Code]\]  
+\[[docs/nossim_2017.pdf PDF]\]\[[https://github.com/zoranzhao/NoSSim Code]\]  
 ~~~
 
 ~~~
 {}{img_left}{images/rba.png}{alt text}{232}{250}{images/rba.png}
-*Retargetable Back-Annotator (RBA)* a prototype for a source-level network/system co-simulation approach.
+*Retargetable Back-Annotator (RBA)*: A compile-time profiling and instrumentation tool for source-level system performance evaluation.
 
-that combines a host-compiled SystemC simulation of device-internal SoC platforms 
-a simulation of network interactions using the OMNeT++ network simulation framework
+*Z. Zhao*, A. Gerstlauer and L. K. John, \"Source-Level Performance, Energy, Reliability, Power and Thermal (PERPT) Simulation,\" /in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems/, 2017.
 
-*Z. Zhao*, K. Mirzazad and A. Gerstlauer, \"DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters,\" /CODES+ISSS, special issue  of  IEEE  Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2018. 
-
-\[[docs/DeepThings_2018.pdf Paper]\]\[[https://github.com/zoranzhao/DeepThings Code]\]  
+\[[https://ieeexplore.ieee.org/document/7488221/ PDF]\]\[[http://users.ece.utexas.edu/~gerstl/releases/ Code]\]  
 ~~~
 
 
 === Recent Publications 
-. *Zhuoran Zhao*, Kamyar Mirzazad and Andreas Gerstlauer, \"DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters,\" /in CODES+ISSS, special issue  of  IEEE  Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2018. \[[docs/DeepThings_2018.pdf Paper]\]\[[https://github.com/zoranzhao/DeepThings Code]\]  
-. *Zhuoran Zhao*, Vasileios Tsoutsouras, Dimitrios Soudris and Andreas Gerstlauer, \"Network\/System Co-Simulation for Design Space Exploration of IoT Applications,\" /in Proceedings of the International Conference on Embedded Computer Systems:  Architectures, Modeling and Simulation (SAMOS)/, Samos, Greece, July 2017. \[[docs/DeepThings_2018.pdf Paper]\]\[[https://github.com/zoranzhao/NoSSim Code]\]  
-. *Zhuoran Zhao*, Andreas Gerstlauer and Lizy K. John, \"Source-Level Performance, Energy, Reliability, Power and Thermal (PERPT) Simulation,\" /in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems/, vol. 36, no. 2, pp. 299-312, February 2017.  \[[https://ieeexplore.ieee.org/document/7488221/ Paper]\] 
+. *Zhuoran Zhao*, Kamyar Mirzazad and Andreas Gerstlauer, \"[docs/deepthings_2018.pdf DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters],\" /in CODES+ISSS, special issue  of  IEEE  Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2018.  
+. *Zhuoran Zhao*, Vasileios Tsoutsouras, Dimitrios Soudris and Andreas Gerstlauer, \"[docs/nossim_2017.pdf Network\/System Co-Simulation for Design Space Exploration of IoT Applications],\" /in Proceedings of the International Conference on Embedded Computer Systems:  Architectures, Modeling and Simulation (SAMOS)/, Samos, Greece, July 2017. 
+. *Zhuoran Zhao*, Andreas Gerstlauer and Lizy K. John, \"[https://ieeexplore.ieee.org/document/7488221/ Source-Level Performance, Energy, Reliability, Power and Thermal (PERPT) Simulation],\" /in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems/, vol. 36, no. 2, pp. 299-312, February 2017.  
 
 === Previous Publications 
-. Suhas Chakravarty, *Zhuoran Zhao*, Andreas Gerstlauer, \"Automated, Retargetable Back-Annotation for Host-Compiled Performance and Power Modeling,\" in /Proceedings of the IEEE\/ACM\/IFIP International Conference on Hardware\/Software Codesign and System Synthesis (CODES+ISSS)/, Montreal, Canada, October 2013. 
-. *Zhuoran Zhao*, Dongwook Lee, Andreas Gerstlauer, \"Host-Compiled Reliability Modeling for Fast Estimation of Architectural Vulnerabilities,\" in /IEEE Workshop on Silicon Errors in Logic, System Effects (SELSE)/, Austin, Texas, March 2015.
-. Lauren Guckert, Mike O\'Connor, Satheesh Kumar Ravindranath, *Zhuoran Zhao*, Vijay Janapa Reddi, \"A Case for Persistent Caching of Compiled JavaScript Code in Mobile Web Browsers,\" in /Workshop On Architectural And Microarchitectural Support For Binary Translation (AMAS-BT)/, Tel Aviv, Israel, June 2013.
+. *Zhuoran Zhao*, Dongwook Lee, Andreas Gerstlauer, \"[docs/selse_2015.pdf Host-Compiled Reliability Modeling for Fast Estimation of Architectural Vulnerabilities],\" in /IEEE Workshop on Silicon Errors in Logic, System Effects (SELSE)/, Austin, Texas, March 2015.
+. Suhas Chakravarty, *Zhuoran Zhao*, Andreas Gerstlauer, \"[docs/rba_2013.pdf Automated, Retargetable Back-Annotation for Host-Compiled Performance and Power Modeling],\" in /Proceedings of the IEEE\/ACM\/IFIP International Conference on Hardware\/Software Codesign and System Synthesis (CODES+ISSS)/, Montreal, Canada, October 2013. 
+. Lauren Guckert, Mike O\'Connor, Satheesh Kumar Ravindranath, *Zhuoran Zhao*, Vijay Janapa Reddi, \"[docs/browser_2013.pdf A Case for Persistent Caching of Compiled JavaScript Code in Mobile Web Browsers],\" in /Workshop On Architectural And Microarchitectural Support For Binary Translation (AMAS-BT)/, Tel Aviv, Israel, June 2013.
 
 
 
