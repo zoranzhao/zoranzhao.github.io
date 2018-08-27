@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU}{publications.html}, nofooter  
+==Publications 
+
+=== Journal Papers 
+. *Zhuoran Zhao*, Kamyar Mirzazad and Andreas Gerstlauer, \"[docs/deepthings_2018.pdf DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters],\" /in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), special issue in CODES+ISSS/, October 2018.
+. *Zhuoran Zhao*, Andreas Gerstlauer and Lizy K. John, \"[https://ieeexplore.ieee.org/document/7488221/ Source-Level Performance, Energy, Reliability, Power and Thermal (PERPT) Simulation],\" /in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, vol. 36, no. 2, pp. 299-312, February 2017.  
+
+=== Conference Papers 
+. *Zhuoran Zhao*, Kamyar Mirzazad and Andreas Gerstlauer, \"[docs/deepthings_2018.pdf DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters],\" in /Proceedings of the IEEE\/ACM\/IFIP International Conference on Hardware\/Software Codesign and System Synthesis (CODES+ISSS)/, Turin, Italy, October 2018.
+. *Zhuoran Zhao*, Vasileios Tsoutsouras, Dimitrios Soudris and Andreas Gerstlauer, \"[docs/nossim_2017.pdf Network\/System Co-Simulation for Design Space Exploration of IoT Applications],\" /in Proceedings of the International Conference on Embedded Computer Systems:  Architectures, Modeling and Simulation (SAMOS)/, Samos, Greece, July 2017. 
+. *Zhuoran Zhao*, Dongwook Lee, Andreas Gerstlauer, \"[docs/selse_2015.pdf Host-Compiled Reliability Modeling for Fast Estimation of Architectural Vulnerabilities],\" in /IEEE Workshop on Silicon Errors in Logic, System Effects (SELSE)/, Austin, Texas, March 2015.
+. *Zhuoran Zhao*, Gary R. Morrison, Andreas Gerstlauer, \"[docs/techcon_2014.pdf EagaCal: Automated ADL Model Calibration Tool],\" in /Semiconductor Research Corporation (SRC) TECHCON/, Austin, Texas, September 2014. 
+. Suhas Chakravarty, *Zhuoran Zhao*, Andreas Gerstlauer, \"[docs/rba_2013.pdf Automated, Retargetable Back-Annotation for Host-Compiled Performance and Power Modeling],\" in /Proceedings of the IEEE\/ACM\/IFIP International Conference on Hardware\/Software Codesign and System Synthesis (CODES+ISSS)/, Montreal, Canada, October 2013. 
+. Lauren Guckert, Mike O\'Connor, Satheesh Kumar Ravindranath, *Zhuoran Zhao*, Vijay Janapa Reddi, \"[docs/browser_2013.pdf A Case for Persistent Caching of Compiled JavaScript Code in Mobile Web Browsers],\" in /Workshop On Architectural And Microarchitectural Support For Binary Translation (AMAS-BT)/, Tel Aviv, Israel, June 2013.
+. Suhas Chakravarty, *Zhuoran Zhao*, Andreas Gerstlauer, \"[docs/techcon_2013.pdf Automated, Retargetable Back-Annotation for Host Compiled Performance and Power Modeling],\" in /Semiconductor Research Corporation (SRC) TECHCON/, Austin, Texas, September 2013. (Best in Session Award)
+
+

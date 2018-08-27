@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{courses.html}, nofooter  
+==Courses
+
+=== Software Courses
+- EE382V Advanced Programming Tools
+- EE380L Engineering Programming Languages
+- EE382V Dynamic Compilation
+
+=== Computer Architecture Courses 
+- EE382N Computer Architecture
+- EE382N Superscalar Microprocessor Architecture
+- EE382M System-on-a-Chip Design
+- EE382C Multicore Computing
+- EE382N Embedded System Design and Modeling
+- EE382M VLSI-I
+- EE382M VLSI-II
+
+
+
