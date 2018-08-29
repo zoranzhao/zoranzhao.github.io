@@ -43,11 +43,11 @@ My research interests include
 
 ~~~
 {}{img_left}{images/nossim.png}{alt text}{232}{154}{images/nossim.png}
-*Network-of-Systems Simulator (NoSSim)*:  A  source-level  network/system  co-simulation  framework  for  rapid  embedded/mobile  system
+*Network-of-Systems Simulator (NoSSim)*:  A  source-level  network\/system  co-simulation  framework  for  rapid  embedded\/mobile  system
 prototyping, which combines:
 - A Host-Compiled SystemC full system simulation platform with an abstract OS model. 
 - A LLVM-based function-level profiling and instrumentation tool.
-- Network interaction emulation based on OMNeT++ network simulation framework and lwIP library.
+- Network interaction emulation based on OMNeT\+\+ network simulation framework and lwIP library.
 
 *Z. Zhao*, V. Tsoutsouras, D. Soudris and A. Gerstlauer, \"Network\/System Co-Simulation for Design Space Exploration of IoT Applications,\" /in Proceedings of the International Conference on Embedded Computer Systems:  Architectures, Modeling and Simulation (SAMOS)/, 2017.
 
