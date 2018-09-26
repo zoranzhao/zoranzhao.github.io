@@ -5,7 +5,8 @@
 {}{img_left}{images/bio.jpg}{alt text}{179}{249}{https://www.linkedin.com/in/zoranzhao/}
 I am a sixth-year Ph.D. candidate in the [http://www.ece.utexas.edu/ Electrical and Computer Engineering (ECE) Department] at the [https://www.utexas.edu/ University of Texas at Austin]. I work in System-Level Architecture and Modeling (SLAM) research group, under the supervision of Professor [http://users.ece.utexas.edu/~gerstl/ Andreas Gerstlauer]. I received the B.S. in Electrical Engineering, [https://www.zju.edu.cn/ Zhejiang University] in 2012.
 
-My research interests are software\/hardware performance modeling, simulation and optimization across full system stack with an emphasis in embedded\/mobile domains.
+My research interests are software\/hardware performance modeling, simulation and optimization across full system stack with an emphasis in embedded\/mobile domains. More specifically, my
+research expertise also includes efficient deployment of computer vision and deep learning algorithms on top of distributed embedded\/mobile systems.
  
 Phone: \+1-512-751-1819 \n
 E-mail: /zhuoran/ \[@\] utexas \[DOT\] edu
@@ -51,7 +52,7 @@ prototyping, which combines:
 
 *Z. Zhao*, V. Tsoutsouras, D. Soudris and A. Gerstlauer, \"Network\/System Co-Simulation for Design Space Exploration of IoT Applications,\" /in Proceedings of the International Conference on Embedded Computer Systems:  Architectures, Modeling and Simulation (SAMOS)/, 2017.
 
-\[[docs/nossim_2017.pdf PDF]\]\[[https://github.com/zoranzhao/NoSSim Code]\] \[[docs/nossim_slides.pdf Slides]\] 
+\[[docs/nossim_2017.pdf PDF]\]\[[https://github.com/zoranzhao/NoSSim Code]\] \[[docs/nossim_slides.ppt Slides]\] 
 ~~~
 
 ~~~
@@ -60,7 +61,7 @@ prototyping, which combines:
 
 *Z. Zhao*, A. Gerstlauer and L. K. John, \"Source-Level Performance, Energy, Reliability, Power and Thermal (PERPT) Simulation,\" /in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2017.
 
-\[[https://ieeexplore.ieee.org/document/7488221/ PDF]\]\[[http://users.ece.utexas.edu/~gerstl/releases/ Code]\]  
+\[[https://ieeexplore.ieee.org/document/7488221/ PDF]\]\[[http://users.ece.utexas.edu/~gerstl/releases/ Code]\] \[[docs/rba_slides.ppt Slides]\] \[[docs/rba_tcad_poster.pdf Poster]\]
 ~~~
 
 == Selected Publications 
