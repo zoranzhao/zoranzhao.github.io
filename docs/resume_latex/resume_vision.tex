@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{ragged2e}
+\usepackage{xspace}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\def\plusplus{\texttt{++}\xspace}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItemList}[1]{
+{\justifying
+  \item{#1 \vspace{-6pt}}
+\par}
+}
+
+\newcommand{\resumeItem}[2]{
+{\justifying
+  \item{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+\par}
+}
+ 
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{ #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingList}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{ #4} \\
+      \textit{#5} &  \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://zoranzhao.github.io/}{\Large Zhuoran Zhao}} & Email : \href{mailto:zhuoran@utexas.edu}{zhuoran@utexas.edu}\\
+  \href{https://zoranzhao.github.io}{Personal Website: https://zoranzhao.github.io} & Mobile : +1-512-751-1819  \\
+  \href{https://github.com/zoranzhao}{GitHub: https://github.com/zoranzhao}  &\\
+  \href{https://www.linkedin.com/in/zoranzhao}{LinkedIn: https://www.linkedin.com/in/zoranzhao} &  \\
+\end{tabular*}
+
+\section{Summary}
+{\justifying
+I am a PhD student at the University of Texas at Austin actively seeking full-time position in related areas such as {\bf operating system, compiler, computer architecture and mobile/edge computing}. More specifically, my research expertise is {\bf efficient deployment of computer vision and deep learning algorithms} on top of {\bf distributed embedded/mobile systems}.
+\vspace{-5pt}
+\par}
+%-----------SKILLS-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+      \resumeItemList{{\bf Programming languages}: C/C\plusplus, Python and Java}
+      \resumeItemList{{\bf Tools and frameworks}: LLVM, Caffe/Caffe2, Darknet, OMNeT++, lwIP.}
+      \resumeItemList{Project experiences with operating system kernel programming, multi-threaded programming (POSIX pthreads) and network programming (Socket Programming in C).}
+      %\resumeItemList{Project experiences in mobile/website application development in Java, Python, HTML5 and JavaScript with Google App Engine.}
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingList
+      {Ph.D. in Electrical and Computer Engineering;}{Dec. 2015 -- May. 2019}
+      {University of Texas at Austin;}{Austin, Texas}
+      {Advisor: Prof. Andreas Gerstlauer}
+    \resumeSubheading
+      {M.S. in Electrical and Computer Engineering;}{Aug. 2012 -- May. 2015}
+      {University of Texas at Austin; GPA: 3.93/4.00}{Austin, Texas}
+    \resumeSubheadingList
+      {B.S. in Electrical Engineering;}{Aug. 2008 -- June. 2012}
+      {Zhejiang University; GPA: 3.95/4.00}{Zhejiang, China}
+      {Honored Minor: Advanced Honor Class of Engineering Education (ACEE)}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Texas at Austin}{Austin, Texas}
+      {Graduate Research Assistant}{Jan 2013 - Present}
+      \resumeItemListStart
+        \resumeItem{DeepThings}
+          {A portable and lightweight runtime framework for locally distributed CNN/DNN inference in resource-constrained IoT edge clusters, developed in C~\ref{DeepThings}.}
+        \resumeItem{NoSSim}
+          {A source-level network/system co-simulation framework for rapid embedded/mobile system prototyping, developed in C\plusplus with LLVM, OMNeT\plusplus and SystemC framework~\ref{NoSSim}.}
+        \resumeItem{HCSim}
+          {A fast full-system simulation platform with abstract models of real-time operating systems (RTOS) and high-level multi-core processor models, developed in C\plusplus with SystemC framework~\ref{NoSSim}.}
+        \resumeItem{RBA}
+          {A compile-time profiling and instrumentation tool for source-level system performance evaluation, developed in C\plusplus and python with gcc and LLVM framework~\ref{PERPT}.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheadingList
+      {FutureWei Technologies}{Plano, Texas}
+      {Research Intern}{Jun 2014 - Aug 2014}
+      {Manager: Weizhong Chen}
+      \resumeItemListStart
+        \resumeItemList{Architectural Description Language (ADL) framework prototype for digital signal processors (DSP), developed in C\plusplus and Python.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheadingList
+      {NXP Semiconductors}{Austin, Texas}
+      {Research Intern}{Jun 2013 - Aug 2013}
+      {Manager: Mark Bader}
+      \resumeItemListStart
+        \resumeItemList{Automatic microprocessor performance calibration framework between RTL and cycle-accurate simulator, developed in C\plusplus with ADL/uADL framework.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheadingList
+      {University of California, Los Angeles}{Austin, Texas}
+      {Research Intern}{Jun 2011 - Aug 2011}
+      {Advisor: Prof. Vwani P. Roychowdhury}
+      \resumeItemListStart
+        \resumeItemList{Interactive complex network visualization in mobile applications and browsers, developed in JavaScript, Java and Python with AJAX technique and Django framework.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\newcommand{\reference}[2]{\justifying\textbf{``#1,''}{\it #2}\par}
+
+
+%-----------PUBLICATIONS-----------------
+\section{Selected Publications}
+\begin{enumerate}[label={[\arabic*]}, leftmargin=*]
+
+  \item \label{DeepThings} {{Zhuoran Zhao}, K. Mirzazad and A. Gerstlauer, \reference{DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters} 
+    {CODES+ISSS, special issue of IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2018.} \vspace{-3pt}}
+  \item \label{NoSSim} {{Zhuoran Zhao}, V. Tsoutsouras, D. Soudris, A. Gerstlauer, \reference{Network/System Co-Simulation for Design Space Exploration of IoT Applications} 
+    {Proceedings of the International Conference on Embedded Computer Systems: Architectures, Modeling and Simulation (SAMOS), 2017.} \vspace{-3pt}}
+  \item \label{PERPT} {{Zhuoran Zhao}, A. Gerstlauer and Lizy K. John, \reference{Source-Level Performance, Energy, Reliability, Power and Thermal (PERPT) Simulation} 
+    {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2017.} \vspace{-3pt}}
+  \item \label{Web} {Zhuoran Zhao, D. Lee and A. Gerstlauer, \reference{Host-Compiled Reliability Modeling for Fast Estimation of Architectural Vulnerabilities} 
+    {In Silicon Errors in Logic, System Effects Workshop (SELSE), 2015} \vspace{-3pt}}
+  \item \label{RBA} {S. Chakravarty, { Zhuoran Zhao}, A. Gerstlauer, \reference{Automated, Retargetable Back-Annotation for Host-Compiled Performance and Power Modeling} 
+    {Proceedings of the IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), 2013.} \vspace{-3pt}}
+  \item \label{Web} {L. Guckert, M. O'Connor, S. K. Ravindranath, { Zhuoran Zhao} and V. J. Reddi, \reference{A Case for Persistent Caching of Compiled JavaScript Code in Mobile Web Browsers} 
+    {In Workshop On Architectural And Microarchitectural Support For Binary Translation (AMAS-BT), 2013} \vspace{-3pt}}
+
+
+
+\end{enumerate}
+
+
+%-----------Relevant Graduate Coursework-----------------
+\section{Relevant Graduate Coursework}
+  \resumeSubHeadingListStart
+	\resumeItemList{EE382V Dynamic Compilation}
+	\resumeItemList{EE382V Advanced Programming Tools}
+	\resumeItemList{EE380L Engineering Programming Languages}
+	\resumeItemList{EE382C Multicore Computing}
+	\resumeItemList{EE382N Computer Architecture}
+	\resumeItemList{EE382N Embedded System Design and Modeling}
+	\resumeItemList{EE382M System-on-a-Chip Design}
+  \resumeSubHeadingListEnd
+
+
+%-----------Relevant Graduate Coursework-----------------
+\section{Professional Service}
+  \resumeSubHeadingListStart
+	\resumeItemList{\bf Reviewer:\vspace{-5pt}}
+	\resumeItemListStart
+		\item IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2017 \vspace{-3pt}
+		\item Design, Automation and Test in Europe (DATE) Conference, 2018 \vspace{-3pt}
+		\item IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), 2018 \vspace{-3pt}
+	\resumeItemListEnd
+
+	\resumeItemList{\bf Teaching:\vspace{-5pt}}
+	\resumeItemListStart
+		\item Teaching Assistant:  EE382N Embedded System Design and Modeling, 2016 \vspace{-3pt}
+		\item Teaching Assistant: EE319K Introduction to Embedded System, 2012 \vspace{-3pt}
+	\resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Honors and Awards}
+  \resumeSubHeadingListStart
+    \resumeItemList{Best in Session Award for the presentation ``Automated, Retargetable Back-Annotation for Host-Compiled Power
+and Performance Modeling,'' in Semiconductor Research Corporation (SRC) TECHCON, Sep 11, 2013}
+    \resumeItemList{National Scholarship in China (2\%), 2009, 2010}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
+
