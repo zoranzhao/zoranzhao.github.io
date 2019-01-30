@@ -19,7 +19,7 @@ body {
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
-	font-size: 1.0em;
+	font-size: 1.1em;
 	width: auto;
 	white-space: nowrap;
     text-align: left;
@@ -42,7 +42,7 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.5em;
+	line-height: 1.7em;
 	margin-left: 0.5em;
 }
 
