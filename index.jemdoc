@@ -6,10 +6,9 @@
 {{-->}}
 ~~~
 {}{img_left}{images/bio.jpg}{alt text}{143}{199}{https://www.linkedin.com/in/zoranzhao/}
-I am a sixth-year Ph.D. candidate in the [http://www.ece.utexas.edu/ Electrical and Computer Engineering (ECE) Department] at the [https://www.utexas.edu/ University of Texas at Austin]. I work in [http://users.ece.utexas.edu/~gerstl/research.html System-Level Architecture and Modeling (SLAM)] research group, under the supervision of Professor [http://users.ece.utexas.edu/~gerstl/ Andreas Gerstlauer]. I received the B.S. in Electrical Engineering, [https://www.zju.edu.cn/ Zhejiang University] in 2012.
+I received my Ph.D. degree in [http://www.ece.utexas.edu/ Electrical and Computer Engineering (ECE)] from the [https://www.utexas.edu/ University of Texas at Austin] in 2019, where I worked in [https://slam-lab.github.io/ System-Level Architecture and Modeling (SLAM)] research group under the supervision of Professor [http://users.ece.utexas.edu/~gerstl/ Andreas Gerstlauer]. I received a B.S. in Electrical Engineering from [https://www.zju.edu.cn/ Zhejiang University] in 2012.
 
-My research interests are software\/hardware performance modeling, simulation and optimization across full system stack with an emphasis in embedded\/mobile domains. More specifically, my
-research expertise also includes efficient deployment of computer vision and deep learning algorithms on top of distributed embedded\/mobile systems.
+My research interests mainly include efficient runtime\/middleware for distributed deep learning, system-level performance modeling and software\/hardware co-design.
  
 Phone: \+1-512-751-1819 \n
 E-mail: /zhuoran/ \[@\] utexas \[DOT\] edu
@@ -17,13 +16,13 @@ E-mail: /zhuoran/ \[@\] utexas \[DOT\] edu
 
 ~~~
 {NEWS:}
-I will join [https://research.fb.com/ Facebook] as a Research Scientist in 2019!
+I will join [https://research.fb.com/ Facebook] as a Research Scientist in August 2019!
 ~~~
 
 == Research Interests
 My research interests include 
 - Mobile/Edge Computing
-- Distributed Deep Learning Inference
+- Distributed Deep Learning
 - System-level Performance Modeling and Simulation
 - Operating System
 - Distributed Computing
