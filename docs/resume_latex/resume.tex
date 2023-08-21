@@ -136,15 +136,14 @@ My research interests include efficient runtime/middleware for distributed deep 
 
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Full-time Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Facebook}{Menlo Park, CA}
       {Research Scientist}{Oct. 2019 - Present}
       \resumeItemListStart
-        \resumeItemList{Ads Machine Learning (ML) Ranking Infrastructure}
-        \resumeItemList{Distributed AI Infrastructure}
-        \resumeItemList{Large Scale Machine Learning (ML) Recommendation System}
+        \resumeItemList{Ads Machine Learning (ML) Ranking Infrastructure: Tech Lead on Ads ML Serving Infra PyTorch enablement and massive adoption}
+        \resumeItemList{PyTorch: PyTorch inference runtime and compiler}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-5pt}
@@ -155,8 +154,8 @@ My research interests include efficient runtime/middleware for distributed deep 
       \resumeItemListStart
         \resumeItem{DeepThings}
           {Research project focusing on a portable and lightweight runtime framework for locally distributed CNN/DNN inference in resource-constrained IoT edge clusters, developed in C~\ref{DeepThings}.}
-        \resumeItem{Network-of-Systems Simulator (NoSSim)}
-          {Research project focusing on a source-level network/system co-simulation framework for distributed embedded/mobile computing cluster prototyping, developed in C\plusplus with LLVM, OMNeT\plusplus and SystemC framework~\ref{NoSSim}.}
+        \resumeItem{Network-of-Systems Simulator (NoSDSE)}
+          {Research project focusing on a source-level network/system co-simulation framework for distributed embedded/mobile computing cluster prototyping, developed in C\plusplus with LLVM, OMNeT\plusplus and SystemC framework~\ref{NoSDSE}.}
         \resumeItemList{Teaching Assistant:  EE382N Embedded System Design and Modeling (Fall 2015), EE319K Introduction to Embedded Systems (Fall 2012)}
         %\resumeItem{HCSim}
         %  {A fast full-system simulation platform with abstract models of real-time operating systems (RTOS) and high-level multi-core processor models, developed in C\plusplus with SystemC framework~\ref{NoSSim}.}
@@ -164,6 +163,8 @@ My research interests include efficient runtime/middleware for distributed deep 
         %  {A compile-time profiling and instrumentation tool for source-level system performance evaluation, developed in C\plusplus and python with GCC and LLVM framework~\ref{PERPT}.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
+  
+\begin{comment}
 \vspace{-5pt}
   \resumeSubHeadingListStart
     \resumeSubheadingList
@@ -194,6 +195,7 @@ My research interests include efficient runtime/middleware for distributed deep 
         \resumeItemList{Interactive complex network visualization in mobile applications and browsers, developed in JavaScript, Java and Python with AJAX technique and Django framework.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
+\end{comment}
 
 \newcommand{\reference}[2]{\justifying\textbf{``#1,''}{\it #2}\par}
 
@@ -203,6 +205,8 @@ My research interests include efficient runtime/middleware for distributed deep 
 \section{Selected Publications}
 \begin{enumerate}[label={[\arabic*]}, leftmargin=*]
 
+  \item \label{NoSDSE} {{Zhuoran Zhao}, K. Mirzazad and A. Gerstlauer, \reference{Network-level Design Space Exploration of Resource-constrained Networks-of-Systems} 
+    {ACM Transactions on Embedded Computing Systems (TECS), 2020.} \vspace{-3pt}}
   \item \label{DeepThings} {{Zhuoran Zhao}, K. Mirzazad and A. Gerstlauer, \reference{DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters} 
     {CODES+ISSS, special issue of IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2018.} \vspace{-3pt}}
   \item \label{NoSSim} {{Zhuoran Zhao}, V. Tsoutsouras, D. Soudris, A. Gerstlauer, \reference{Network/System Co-Simulation for Design Space Exploration of IoT Applications} 
@@ -217,29 +221,36 @@ My research interests include efficient runtime/middleware for distributed deep 
     {In Workshop On Architectural And Microarchitectural Support For Binary Translation (AMAS-BT), 2013} \vspace{-3pt}}
 
 
-
 \end{enumerate}
 
 
 %-----------Relevant Graduate Coursework-----------------
-\section{Relevant Graduate Coursework}
-  \resumeSubHeadingListStart
-	\resumeItemList{EE382V Dynamic Compilation}
-	\resumeItemList{EE382V Advanced Programming Tools}
-	\resumeItemList{EE380L Engineering Programming Languages}
-	\resumeItemList{EE382C Multicore Computing}
-	\resumeItemList{EE382N Computer Architecture}
-	\resumeItemList{EE382N Embedded System Design and Modeling}
-	\resumeItemList{EE382M System-on-a-Chip Design}
-  \resumeSubHeadingListEnd
+%\section{Relevant Graduate Coursework}
+%  \resumeSubHeadingListStart
+%	\resumeItemList{EE382V Dynamic Compilation}
+%	\resumeItemList{EE382V Advanced Programming Tools}
+%	\resumeItemList{EE380L Engineering Programming Languages}
+%	\resumeItemList{EE382C Multicore Computing}
+%	\resumeItemList{EE382N Computer Architecture}
+%	\resumeItemList{EE382N Embedded System Design and Modeling}
+%	\resumeItemList{EE382M System-on-a-Chip Design}
+%  \resumeSubHeadingListEnd
 
 
 %-----------Relevant Graduate Coursework-----------------
 \section{Professional Service}
   \resumeSubHeadingListStart
+  	\resumeItemList{\bf Technical Program Committee (TPC) Member:\vspace{-5pt}}
+	\resumeItemListStart
+		\item Design Automation Conference (DAC) 2021 (Session manuscript reviewer) \vspace{-3pt}
+		\item Design Automation Conference (DAC) 2022, 2023 (Session manuscript reviewer and presentation co-chair) \vspace{-3pt}
+	\resumeItemListEnd
+  
 	\resumeItemList{\bf Reviewer:\vspace{-5pt}}
 	\resumeItemListStart
-		\item IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2017 \vspace{-3pt}
+		\item IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) \vspace{-3pt}
+		\item IEEE Transactions on Parallel and Distributed Systems (TPDS) \vspace{-3pt}
+		\item IEEE Internet of Things Journal (IoT-J) \vspace{-3pt}
 		\item Design, Automation and Test in Europe (DATE) Conference, 2018 \vspace{-3pt}
 		\item IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), 2018 \vspace{-3pt}
 	\resumeItemListEnd
