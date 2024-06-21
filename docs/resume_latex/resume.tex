@@ -106,15 +106,16 @@
 
 \section{Summary}
 {\justifying
-My research interest is in the area of electronic system-level (ESL) design and modeling, mainly including efficient runtime/middleware for distributed deep learning, system-level performance modeling and software/hardware co-design.
+My current research interests mainly include Machine Learning (ML) compiler, ML inference runtime and software/hardware co-design for high-concurrency ML serving systems. During my PhD, I spent most of my time in the area of electronic system-level (ESL) design and modeling, mainly focusing on distributed runtime/middleware and system-level performance modeling for edge computing systems.
+
 \vspace{-5pt}
 \par}
 %-----------SKILLS-----------------
 \section{Skills}
   \resumeSubHeadingListStart
       \resumeItemList{{\bf Programming languages}: C/C\plusplus, Python}
-      \resumeItemList{{\bf Tools and frameworks}: LLVM, Caffe2, PyTorch, Darknet, OMNeT++, lwIP.}
-      \resumeItemList{Project experiences with operating system kernel programming, multi-threaded programming (POSIX pthreads) and network programming (Socket Programming in C).}
+      \resumeItemList{{\bf Tools and frameworks}: PyTorch, TorchInductor, Triton, Apache Thrift etc.}
+      \resumeItemList{5-year industry project experiences on large-scale distributed recommender systems, ML inference runtime/compiler and GPU performance optimization}
   \resumeSubHeadingListEnd
 
 
@@ -140,10 +141,12 @@ My research interest is in the area of electronic system-level (ESL) design and 
   \resumeSubHeadingListStart
     \resumeSubheading
       {Facebook}{Menlo Park, CA}
-      {Research Scientist}{Oct. 2019 - Present}
+      {Staff Research Scientist}{Oct. 2019 - Present}
       \resumeItemListStart
-        \resumeItemList{Ads Machine Learning (ML) Ranking Infrastructure: Tech Lead on Ads ML Serving Infra PyTorch enablement and massive adoption}
-        \resumeItemList{PyTorch: PyTorch inference runtime and compiler}
+        \resumeItem{Ads ML Ranking Infrastructure (Oct. 2019 - Jun. 2023)}
+        {Tech Lead on PyTorch/GPU enablement and massive adoption for Ads ML ranking models}
+        \resumeItem{PyTorch Accelerator Enablement (Jun. 2023  - Present)}
+        {Working in the domain of PyTorch GPU inference runtime and compiler, enabling TorchInductor on large-scale production ranking models, enabling ahead-of-time TorchInductor (AOTInductor) on AMD GPU for both Meta internal workloads and open-source communities}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-5pt}
@@ -152,10 +155,10 @@ My research interest is in the area of electronic system-level (ESL) design and 
       {University of Texas at Austin}{Austin, Texas}
       {Graduate Research Assistant/Teaching Assistant}{Aug. 2012 - May 2019}
       \resumeItemListStart
-        \resumeItem{DeepThings}
-          {Research project focusing on a portable and lightweight runtime framework for locally distributed CNN/DNN inference in resource-constrained IoT edge clusters, developed in C~\ref{DeepThings}.}
-        \resumeItem{Network-of-Systems Simulator (NoSDSE)}
-          {Research project focusing on a source-level network/system co-simulation framework for distributed embedded/mobile computing cluster prototyping, developed in C\plusplus with LLVM, OMNeT\plusplus and SystemC framework~\ref{NoSDSE}.}
+        %\resumeItem{DeepThings}
+        \resumeItemList{Research project focusing on a portable and lightweight runtime framework for locally distributed CNN/DNN inference in resource-constrained IoT edge clusters, developed in C~\ref{DeepThings}.}
+        % \resumeItem{Network-of-Systems Simulator (NoSDSE)}
+        \resumeItemList{Research project focusing on a source-level network/system co-simulation framework for distributed embedded/mobile computing cluster prototyping, developed in C\plusplus with LLVM, OMNeT\plusplus and SystemC framework~\ref{NoSDSE}.}
         \resumeItemList{Teaching Assistant:  EE382N Embedded System Design and Modeling (Fall 2015), EE319K Introduction to Embedded Systems (Fall 2012)}
         %\resumeItem{HCSim}
         %  {A fast full-system simulation platform with abstract models of real-time operating systems (RTOS) and high-level multi-core processor models, developed in C\plusplus with SystemC framework~\ref{NoSSim}.}

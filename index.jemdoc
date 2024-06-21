@@ -9,7 +9,7 @@
 I am a Research Scientist at Facebook, Menlo Park. Prior to joining Facebook, I received my Ph.D. degree in [http://www.ece.utexas.edu/ Electrical and Computer Engineering (ECE)] from the [https://www.utexas.edu/ University of Texas at Austin] in 2019, where I worked in [https://slam.ece.utexas.edu/ System-Level Architecture and Modeling (SLAM)] research group under the supervision of Professor [http://users.ece.utexas.edu/~gerstl/ Andreas Gerstlauer]. I received a B.S. in Electrical Engineering from [https://www.zju.edu.cn/ Zhejiang University] in 2012.
 
 
-My research interest is in the area of electronic system-level (ESL) design and modeling, mainly including efficient runtime\/middleware for distributed deep learning, system-level performance modeling and software\/hardware co-design. In Facebook, I am currently doing research and development for distributed large-scale deep learning recommendation systems.
+My current research interests mainly include Machine Learning (ML) compiler, ML inference runtime and software\/hardware co-design for high-concurrency ML serving systems. During my PhD, I spent most of my time in the area of electronic system-level (ESL) design and modeling, mainly focusing on distributed runtime\/middleware and system-level performance modeling for edge computing systems.
  
 Phone: \+1-512-751-1819 \n
 E-mail: /zhuoran/ \[@\] utexas \[DOT\] edu
@@ -24,12 +24,9 @@ E-mail: /zhuoran/ \[@\] utexas \[DOT\] edu
 
 == Research Interests
 My research interests include
-- Large-Scale Deep Learning Recommendation System
-- Distributed Deep Learning
-- Distributed Computing
+- ML compiler and runtime
+- Large-Scale Recommendation Systems
 - Mobile/Edge Computing
-- System-level Performance Modeling and Simulation
-- Operating System/Compiler
 
 == Research Projects
 ~~~
